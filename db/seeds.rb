@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Department.create(name:'Beauty', description:'Fragrances, Makeup, Skin Care')
+Department.create(name:'Clothing', description:'Women, Men, Kids')
+Department.create(name:'Accessories', description:'Bags, Watches, Jewelry, Hats, Sunglasses')
